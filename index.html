@@ -8,12 +8,13 @@
     <h1> Order Management System </h1>
     <h3> What would you like to buy? </h3> 
     <select id="product-selection">
+        <option value="0">Select a Product</option>
         <option value="20"> Product 1 </option>
         <option value="30"> Product 2 </option>
     </select>
     <p></p>
     <p>Quantity:</p>
-    <textarea id="quantity"></textarea>
+    <input type="number" id="quantity" min="1"></input>
 
     <p> Total Price: </p><p id="total-price"> $0 </p>
 
