@@ -4,7 +4,7 @@
 //Check index.html for html code
 
 
-//Task 2: Add Event Listener for Product Selection
+//Task 2 & 3: Add Event Listener for Product Selection & Calculate Price
 //I will now update the total price after a user selects a product and how many they are going to buy.
 
 const productSelection = document.getElementById("product-selection"); //variable for the product dropdown
@@ -20,3 +20,5 @@ function updateTotalPrice() {
 
 productSelection.addEventListener("change", updateTotalPrice);
 quantityField.addEventListener("input", updateTotalPrice);
+
+
