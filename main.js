@@ -22,3 +22,13 @@ productSelection.addEventListener("change", updateTotalPrice);
 quantityField.addEventListener("input", updateTotalPrice);
 
 
+//Task 4: Handle Order Submission
+// I will add a pop-up after clicking purchase, to include what was bought, the quantity, and the total price.
+
+const purchaseButton = document.getElementById("purchase-button"); //variable for purchase button
+purchaseButton.addEventListener("click", (event) => {
+    const selectedProduct = productSelection.options[productSelection.selectedIndex].text; //figures out which dropdown is selected, and converts that option to text.
+    const quantity = quantityField.value; //gets the value from the quantity field as a number
+    const totalPriceValue = totalPrice.textContent; 
+    alert(`You have successfully purchased ${quantity} ${selectedProduct} for a total of ${totalPriceValue}.`);
+})
