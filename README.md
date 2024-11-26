@@ -1,2 +1,2 @@
-# Coding-Challenge-11
-This is the repository for Coding Challenge 11. We are creating an order management system to track products being sold. 
+# Order Management System
+This is an order management system application. This application will be able to track products being sold and dynamically update options and prices based on which dropdown choice is selected. 
